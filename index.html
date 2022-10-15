@@ -1,12 +1,408 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Cuddly Giggle</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header class="">
+      <div class="flex justify-center">
+        <nav class="self-center w-full max-w-7xl">
+          <div class="flex flex-col lg:flex-row justify-around items-center">
+            <h1 class="uppercase pl-5 py-4 text-lg font-sans font-bold">
+              hero
+            </h1>
+            <ul
+              class="hidden lg:flex items-center text-[18px] font-semibold pl-32"
+            >
+              <li
+                class="hover:underline underline-offset-4 decoration-2 decoration-white py-2 rounded-lg px-5"
+              >
+                <a href="#">Home</a>
+              </li>
+              <li
+                class="hover:underline underline-offset-4 decoration-2 decoration-white py-2 rounded-lg px-5"
+              >
+                <a href="#">Contact</a>
+              </li>
+              <li
+                class="hover:underline underline-offset-4 decoration-2 decoration-white py-2 rounded-lg px-5"
+              >
+                <a href="#">Services</a>
+              </li>
+              <li
+                class="hover:underline underline-offset-4 decoration-2 decoration-white py-2 rounded-lg px-5"
+              >
+                <a href="#">About</a>
+              </li>
+              <li
+                class="hover:underline underline-offset-4 decoration-2 decoration-white py-2 rounded-lg px-5"
+              >
+                <a href="#">Pricing</a>
+              </li>
+              <li
+                class="hover:underline underline-offset-4 decoration-2 decoration-white py-2 rounded-lg px-5"
+              >
+                <a href="./public/login.html">Login</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="flex justify-center items-center">
+        <div class="flex flex-col justify-center items-center max-w-7xl">
+          <h1 class="text-3xl md:text-[50px] font-bold mt-5">Tailblocks CSS</h1>
+          <div
+            class="flex flex-col justify-center items-center xl:flex-row m-8 w-[80%] lg:w-full"
+          >
+            <div
+              class="flex flex-col items-center justify-center m-6 px-6 lg:w-1/3 w-full"
+            >
+              <h1 class="text-gray-700 text-2xl font-bold">Service</h1>
+              <div
+                class="flex items-center justify-center flex-col space-y-2 mt-5"
+              >
+                <div class="flex items-center justify-center space-x-4">
+                  <img
+                    src="https://www.esearchlogix.com/wp-content/uploads/2022/04/web-left-banner.jpg"
+                    class="w-[20%] md:w-[5%]"
+                    alt=""
+                  />
+                  <h1 class="text-lg font-semibold mt-3">Web Development</h1>
+                </div>
+                <h1 class="text-justify text-gray-700 md:w-[250px]">
+                  Tailblocks provides best Tailwind CSS components. Visit our
+                  website and feel free to give feedback.
+                </h1>
+              </div>
+              <div
+                class="flex items-center justify-center flex-col space-y-2 mt-5"
+              >
+                <div class="flex items-center justify-center space-x-4">
+                  <img
+                    src="https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149024129.jpg?w=2000"
+                    class="w-[20%] md:w-[5%]"
+                    alt=""
+                  />
+                  <h1 class="text-lg font-semibold mt-2">UI/UX Design</h1>
+                </div>
+                <h1 class="text-justify text-gray-700 md:w-[250px]">
+                  Tailblocks provides best Tailwind CSS components. Visit our
+                  website and feel free to give feedback.
+                </h1>
+              </div>
+              <div
+                class="flex items-center justify-center flex-col space-y-2 mt-3"
+              >
+                <div class="flex items-center justify-center space-x-4">
+                  <img
+                    src="https://webconsulting.ie/wp-content/uploads/2020/09/cropped-logo-Web-Consulting.png"
+                    class="w-[20%] md:w-[5%]"
+                    alt=""
+                  />
+                  <h1 class="text-lg font-semibold mt-5">Web Consulting</h1>
+                </div>
+                <h1 class="text-justify text-gray-700 md:w-[250px]">
+                  Tailblocks provides best Tailwind CSS components. Visit our
+                  website and feel free to give feedback.
+                </h1>
+              </div>
+            </div>
+            <div class="w-60 lg:w-96 h-60 lg:h-96 overflow-hidden">
+              <img
+                src="https://source.unsplash.com/300x400/?computer"
+                class="h-full w-full"
+                alt=""
+              />
+            </div>
+            <div
+              class="flex flex-col m-6 px-6 xl:w-1/3 w-full items-center justify-center"
+            >
+              <div class="flex flex-col items-start">
+                <h1 class="text-gray-700 text-2xl font-bold">
+                  Web specialist based in Jakarta
+                </h1>
+                <p class="text-justify text-gray-700 md:w-[250px] mt-5">
+                  Tailblocks provides best Tailwind CSS components. Visit our
+                  website and feel free to give feedback.
+                </p>
+                <p class="text-justify text-gray-700 md:w-[250px] mt-5">
+                  Tailblocks provides best Tailwind CSS components. Visit our
+                  website and feel free to give feedback.
+                </p>
+                <button
+                  class="mt-5 px-6 py-1 text-lg text-white hover:bg-gray-800 bg-gray-700"
+                >
+                  Hire me
+                </button>
+              </div>
+              <div class="flex space-x-6 mt-5">
+                <div class="flex flex-col">
+                  <div class="flex space-x-1">
+                    <h1 class="text-2xl font-semibold mt-3">13</h1>
+                    <h1 class="text-xl mt-[14px] font-semibold">Years</h1>
+                  </div>
+                  <h1 class="text-gray-700">Experience</h1>
+                </div>
+                <div class="flex flex-col">
+                  <div class="flex space-x-1">
+                    <h1 class="text-2xl font-semibold mt-3">256</h1>
+                    <h1 class="text-xl font-bold mt-3">+</h1>
+                  </div>
+                  <h1 class="text-gray-700">Clients</h1>
+                </div>
+                <div class="flex flex-col">
+                  <div class="flex space-x-1">
+                    <h1 class="text-2xl font-semibold mt-3">99.8</h1>
+                    <h1 class="text-lg font-bold mt-3">%</h1>
+                  </div>
+                  <h1 class="text-gray-700">Satisfaction</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="https://cdn.tailwindcss.com"></script>
+      <script src="https://use.fontawesome.com/03f8a0ebd4.js"></script>
+    </header>
+    <main>
+        <div class="OurTrustedClint">
+            <div class="flex justify-center bg-blue-500 p-4">
+                <div class="flex flex-col justify-center items-center ">
+                    <div class="text-white text-3xl font-medium">Our Trusted Clients</div>
+                    <div class="flex flex-col md:flex-row max-w-7xl justify-center items-center ">
+        
+                        <div class="overflow-hidden w-full m-4 flex justify-center bg-white rounded-lg  md:w-[33%] px-8">
+        
+                            <div class="flex flex-col md:flex-row items-center justify-center  ">
+                                <div class="  items-center justify-center flex py-2">
+                                    <div class="flex flex-col  items-center justify-center text-center">
+                                        <img src="https://source.unsplash.com/150x150/?man,boy" alt="" class="rounded-full" />
+                                        <div class="text-stone-600 font-medium m-2"> Tailblocks provides best Tailwind CSS
+                                            Components and Blocks to create an unique websites within minutes.</div>
+                                        <div class="font-bold">John Doe</div>
+                                        <div class="text-cyan-600 italic"><a href="#">Board Director of Tailblocks</a></div>
+                                    </div>
+                                </div>
+        
+                            </div>
+                        </div>
+                        <div class="overflow-hidden w-full m-4 flex justify-center bg-white rounded-lg  md:w-[33%] px-8">
+        
+                            <div class="flex flex-col md:flex-row items-center justify-center  ">
+                                <div class="  items-center justify-center flex py-2">
+                                    <div class="flex flex-col  items-center justify-center text-center">
+                                        <img src="https://source.unsplash.com/150x150/?girl" alt="" class="rounded-full" />
+                                        <div class="text-stone-600 font-medium m-2"> Tailblocks provides best Tailwind CSS
+                                            Components and Blocks to create an unique websites within minutes.</div>
+                                        <div class="font-bold">Jessie</div>
+                                        <div class="text-cyan-600 italic"><a href="#">MD of Tailblocks</a></div>
+                                    </div>
+                                </div>
+        
+                            </div>
+                        </div>
+                        <div class="overflow-hidden w-full m-4 flex justify-center bg-white rounded-lg  md:w-[33%] px-8">
+        
+                            <div class="flex flex-col md:flex-row items-center justify-center  ">
+                                <div class="  items-center justify-center flex py-2">
+                                    <div class="flex flex-col  items-center justify-center text-center">
+                                        <img src="https://source.unsplash.com/150x150/?girl,woman" alt=""
+                                            class="rounded-full" />
+                                        <div class="text-stone-600 font-medium m-2"> Tailblocks provides best Tailwind CSS
+                                            Components and Blocks to create an unique websites within minutes.</div>
+                                        <div class="font-bold">Davina Claire</div>
+                                        <div class="text-cyan-600 italic"><a href="#">Board Director of Tailblocks</a></div>
+                                    </div>
+                                </div>
+        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </main>
+    <footer>
+      <div class="flex justify-center items-center">
+        <div class="bg-white items-center w-full md:max-w-7xl">
+          <div
+            class="flex flex-col justify-center items-center mt-3 space-y-2 md:mx-[50px] md:flex-row md:justify-between"
+          >
+            <p
+              class="text-md font-semibold text-gray-800 md:text-lg md:text-gray-500/90"
+            >
+              Join Our Newsletter
+            </p>
+            <div class="md:text-lg">
+              <input
+                class="bg-gray-200/70 border drop-shadow-sm shadow-gray-700 rounded-md placeholder-slate-400 px-2 py-1 focus:outline-none focus:border-cyan-600"
+                type="email"
+                placeholder="E-mail Address"
+              />
+              <button
+                class="p-1 m-1 rounded-md text-white bg-blue-500 hover:text-blue-500 hover:bg-white hover:font-semibold hover:trandform ease-in-out duration-300"
+              >
+                Subscribe
+              </button>
+            </div>
+            <div class="text-center text-lg md:space-x-1">
+              <a
+                class="w-9 h-10 pt-1 m-2 md:ml-2 md:mr-0 inline-block border-1 rounded-lg text-white bg-blue-500 hover:bg-white hover:text-blue-500"
+                href="#"
+              >
+                <li class="fa fa-twitter"></li>
+              </a>
+              <a
+                class="w-9 h-10 pt-1 m-2 inline-block border-1 rounded-lg text-white bg-orange-500 hover:bg-white hover:text-orange-500"
+                href="#"
+              >
+                <li class="fa fa-google"></li>
+              </a>
+              <a
+                class="w-9 h-10 pt-1 m-2 inline-block border-1 rounded-lg text-white bg-red-500 hover:bg-white hover:text-red-500"
+                href="#"
+              >
+                <li class="fa fa-linkedin"></li>
+              </a>
+              <a
+                class="w-9 h-10 pt-[5px] m-2 inline-block border-1 rounded-lg text-white bg-purple-500 hover:bg-white hover:text-purple-500"
+                href="#"
+              >
+                <li class="fa fa-telegram"></li>
+              </a>
+              <a
+                class="w-9 h-10 pt-[5px] m-2 inline-block border-1 rounded-lg text-white bg-cyan-500 hover:bg-white hover:text-cyan-500"
+                href="#"
+              >
+                <li class="fa fa-facebook"></li>
+              </a>
+            </div>
+          </div>
+          <hr class="mt-2 md:overflow-hidden" />
+          <div class="grid grid-cols-2 my-3 text-center md:grid-cols-4">
+            <div class="flex flex-col leading-7 items-start ml-20">
+              <h1 class="text-blue-500 text-lg font-semibold">Product</h1>
+              <p>
+                <a class="text-gray-500/80 hover:text-cyan-600" href="#"
+                  >Features</a
+                >
+              </p>
+              <p>
+                <a class="text-gray-500/80 hover:text-cyan-600" href="#"
+                  >Integrations</a
+                >
+              </p>
+              <p>
+                <a class="text-gray-500/80 hover:text-cyan-600" href="#"
+                  >Shopify Integrations</a
+                >
+              </p>
+              <p>
+                <a class="text-gray-500/80 hover:text-cyan-600" href="#"
+                  >Pricing</a
+                >
+              </p>
+              <p>
+                <a class="text-gray-500/80 hover:text-cyan-600" href="#"
+                  >Chrome Extensions</a
+                >
+              </p>
+            </div>
+            <div class="flex flex-col leading-7">
+              <h1 class="text-blue-500 text-lg font-semibold">Company</h1>
+              <p>
+                <a class="text-gray-500/80 hover:text-cyan-600" href="#"
+                  >Terms</a
+                >
+              </p>
+              <p>
+                <a class="text-gray-500/80 hover:text-cyan-600" href="#"
+                  >Customers</a
+                >
+              </p>
+              <p>
+                <a class="text-gray-500/80 hover:text-cyan-600" href="#"
+                  >Blog</a
+                >
+              </p>
+              <p>
+                <a class="text-gray-500/80 hover:text-cyan-600" href="#"
+                  >Terms of Servics</a
+                >
+              </p>
+              <p>
+                <a class="text-gray-500/80 hover:text-cyan-600" href="#"
+                  >Privacy Policy</a
+                >
+              </p>
+            </div>
+            <div class="flex flex-col my-6 leading-7 md:my-0">
+              <h1 class="text-blue-500 text-lg font-semibold">Support</h1>
+              <p>
+                <a class="text-gray-500/80 hover:text-cyan-600" href="#"
+                  >Community</a
+                >
+              </p>
+              <p>
+                <a class="text-gray-500/80 hover:text-cyan-600" href="#"
+                  >Support Customers</a
+                >
+              </p>
+              <p>
+                <a class="text-gray-500/80 hover:text-cyan-600" href="#"
+                  >Documentations</a
+                >
+              </p>
+              <p>
+                <a class="text-gray-500/80 hover:text-cyan-600" href="#"
+                  >Service Providers</a
+                >
+              </p>
+              <p>
+                <a class="text-gray-500/80 hover:text-cyan-600" href="#"
+                  >Email Contact</a
+                >
+              </p>
+            </div>
+            <div class="flex flex-col my-6 leading-7 md:my-0">
+              <h1 class="text-blue-500 text-lg font-semibold">Contact Us</h1>
+              <p>
+                <a class="text-gray-500/80 hover:text-cyan-600" href="#"
+                  >Support@admin.com</a
+                >
+              </p>
+              <p>
+                <a class="text-gray-500/80 hover:text-cyan-600" href="#"
+                  >(+91)700-788-67-00</a
+                >
+              </p>
+            </div>
+          </div>
+          <hr class="mt-2 md:invisible" />
+          <div
+            class="flex flex-col items-center m-5 md:flex-row md:justify-between md:mx-28"
+          >
+            <img
+              src="https://source.unsplash.com/150x50/?"
+              alt="https://dummyimage.com/150x50"
+            />
+            <div class="mt-4 text-gray-500 font-semibold">
+              <a class="hover:text-blue-500 tracking-wide" href="#">DMCA </a>
+              <strong>|</strong>
+              <a class="hover:text-blue-500 tracking-normal" href="#"
+                >Security Statement</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="https://cdn.tailwindcss.com"></script>
+      <script src="https://use.fontawesome.com/03f8a0ebd4.js"></script>
+    </footer>
+  </body>
 </html>
